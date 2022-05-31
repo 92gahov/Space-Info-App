@@ -1,38 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./Components/img/earth-from-outer-space-wallpapers-50358-958728-1430153.png");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.People-info {
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  color: rgb(255, 230, 0);
+  margin: 4px;
+  text-decoration: underline;
+  padding: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: red;
+}
+
+.ISS-info {
+  background-color: rgba(184, 176, 176, 0.753);
+  width: 500px;
+  padding: 8px 20px 30px 20px;
+  margin: 70px auto 0 auto;
+  border-radius: 20px;
+}
+
+.ISS-info h3 {
+  color: black;
+}
+
+.ISS-info p {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
 }
