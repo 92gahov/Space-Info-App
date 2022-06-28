@@ -24,7 +24,7 @@ class ISS extends React.Component {
         return (
             <div className="ISS-info">
                 <h3>The ISS position.</h3>
-                <p>The ISS is currently over <i>{positions.latitude}&deg; N</i>, <i>{positions.longitude}&deg; E</i></p>
+                <p>The ISS is currently over: <i>{positions.latitude}&deg; N</i>, <i>{positions.longitude}&deg; E</i></p>
             </div>
         )
     }
