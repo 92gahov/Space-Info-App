@@ -1,4 +1,4 @@
-Here you can see how many people are in space at the moment. Also current coordinates of International Space Station.
+Here you can see how many people are in the space at the moment. Also the current coordinates of International Space Station.
 
 In the terminal write: npm start
 
